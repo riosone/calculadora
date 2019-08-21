@@ -1,0 +1,30 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<div style="text-align:center">
+  <h1>
+     {{ title }}!
+  </h1>
+  
+
+
+
+<input type="number"  placeholder=" "[(ngModel)]="campo" id="campo"/>
+<br>
+<input type="number"  placeholder=" "[(ngModel)]="campo1" id="campo1"/>
+<br>
+  
+
+<br>
+<button  (click)="suma()" class="btn btn-primary"><span class="spinner-border spinner-border-sm"></span>+</button>
+<button  (click)="resta()" class="btn btn-primary">-</button>
+<button  (click)="multiplicacion()" class="btn btn-primary">*</button>
+<button  (click)="division()" class="btn btn-primary">/</button>
+<button  (click)="modulo()" class="btn btn-primary">modulo</button>
+<br>
+
+{{rta}}
+</div>
+
+
+
+
